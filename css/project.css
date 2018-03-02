@@ -1,0 +1,57 @@
+/*to hide the scrollbar for menu*/
+body, html {-ms-scrollbar-base-color: #ffffff; scrollbar-face-color: #ffffff;}
+.panel::-webkit-scrollbar { display: none; }
+
+.panel {
+     position: relative;
+     overflow-y: scroll;
+     -webkit-overflow-scrolling: touch;
+     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+.boxHeader {
+     margin-bottom: 40px;
+}
+
+.meme-wrapper {
+     position: relative;
+}
+#meme-box, .meme-box {
+     height:600px;
+     width: auto;
+     margin:0px 30px;
+}
+
+.btn-theme-box {
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+
+.btn-theme-wrapper {
+     margin:5px;
+}
+
+.description {
+
+}
+
+.memeImg {
+     max-height: 350px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     width:auto;
+}
+
+.arrow {
+     position: absolute;
+     bottom:50%;
+     cursor: pointer;
+}
+.arrowLeft {left:10px;} 
+.arrowRight {right:10px; } 
+
+@media (max-width: 500px ) { 
+     
+}
